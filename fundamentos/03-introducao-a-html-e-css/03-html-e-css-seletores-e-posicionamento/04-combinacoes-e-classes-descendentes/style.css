@@ -1,0 +1,61 @@
+ol li {
+  background-color: yellow;
+}
+
+ol li:nth-child(even) {
+  color: green;
+}
+
+ol li:nth-child(odd) {
+  text-transform: uppercase;
+}
+
+h1, h3 {
+  color: red;
+}
+
+h1 em, h3 em {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: bold;
+}
+
+#languages li:nth-child(-n+3) {
+  color: blue;
+}
+
+#languages li[id*="java"] {
+  background-color: pink;
+}
+
+ul li:hover a[href*="stack"] {
+  font-weight: bold;
+  color: orange;
+}
+
+ul li:hover a[href*="w3"] {
+  font-weight: bold;
+  color: green;
+}
+
+ul li:hover a[href*="mozilla"] {
+  font-weight: bold;
+  color: black;
+}
+
+ul li:hover a[href*="devdocs"] {
+  font-weight: bold;
+  color: yellow;
+}
+
+ul li:hover a[href*="trybe"] {
+  font-weight: bold;
+  color: green;
+}

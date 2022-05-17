@@ -1,0 +1,15 @@
+h1, p {
+  text-align: center;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+ol:hover {
+  background-color: goldenrod;
+}
+
+ol li:active {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
