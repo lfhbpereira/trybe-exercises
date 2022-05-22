@@ -169,23 +169,25 @@ let salarioBase;
 let salarioLiquido;
 
 if (salarioBruto <= 1556.94) {
-  console.log(salarioBase = salarioBruto - (salarioBruto * 0.08));
+  salarioBase = salarioBruto - (salarioBruto * 0.08);
 } else if (salarioBruto > 1556.94 && salarioBruto <= 2594.92) {
-  console.log(salarioBase = salarioBruto - (salarioBruto * 0.09));
+  salarioBase = salarioBruto - (salarioBruto * 0.09);
 } else if (salarioBruto > 2594.92 && salarioBruto <= 5189.82) {
-  console.log(salarioBase = salarioBruto - (salarioBruto * 0.11));
+  salarioBase = salarioBruto - (salarioBruto * 0.11);
 } else {
-  console.log(salarioBase = salarioBruto - 570.88);
+  salarioBase = salarioBruto - 570.88;
 }
 
 if (salarioBase <= 1903.98) {
-  console.log(salarioLiquido = salarioBase);
+  salarioLiquido = salarioBase;
 } else if (salarioBase > 1903.98 && salarioBase <= 2826.65) {
-  console.log(salarioLiquido = salarioBase - (salarioBase *0.075 - 142.8));
+  salarioLiquido = salarioBase - (salarioBase *0.075 - 142.8);
 } else if (salarioBase > 2826.65 && salarioBase <= 3751.05) {
-  console.log(salarioLiquido = salarioBase - (salarioBase *0.15 - 354.8));
+  salarioLiquido = salarioBase - (salarioBase *0.15 - 354.8);
 } else if (salarioBase > 3751.05 && salarioBase <= 4664.68) {
-  console.log(salarioLiquido = salarioBase - (salarioBase *0.225 - 636.13));
+  salarioLiquido = salarioBase - (salarioBase *0.225 - 636.13);
 } else {
-  console.log(salarioLiquido = salarioBase - (salarioBase *0.275 - 869.36));
+  salarioLiquido = salarioBase - (salarioBase *0.275 - 869.36);
 }
+
+console.log('Salário líquido: ' + salarioLiquido);
