@@ -3,13 +3,28 @@
   <body>
     <header>
       <h2 id="page-title">Título</h2>
-      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <p class="parag" id="paragraph">Dê uma cor para este parágrafo!</p>
       <h4 id="subtitle">Subtítulo</h4>
-      <p id="second-paragraph">Segundo parágrafo!</p>
+      <p class="parag" id="second-paragraph">Segundo parágrafo!</p>
     </header>
     <script>
-      const paragraph = document.getElementById("paragraph");
-      paragraph.style.color = "red";
+      const paragraph = document.getElementById('paragraph');
+      paragraph.style.color = 'red';
+
+      const title = document.getElementById('page-title');
+      title.innerText = 'Matrix';
+
+      const secondParagraph = document.getElementById('second-paragraph');
+      secondParagraph.innerText = 'One of the best movies ever made!';
+
+      const subtitle = document.getElementById('subtitle');
+      subtitle.innerText = 'Just watch :)';
+
+      const parag = document.getElementsByClassName('parag');
+      parag[0].style.fontStyle = 'italic';
+
+      const sub = document.getElementsByTagName('h4')[0];
+      sub.style.color = 'green';
     </script>
   </body>
 </html>
