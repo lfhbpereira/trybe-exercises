@@ -15,3 +15,6 @@ console.log(primeiroFilhoDeNovo);
 
 const text = elementoOndeVoceEsta.nextSibling;
 console.log(text);
+
+const terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
+console.log(terceiroFilho);
