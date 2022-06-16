@@ -3,3 +3,6 @@ document.getElementById('elementoOndeVoceEsta').parentElement.appendChild(irmaoD
 
 const filhoDoElementoOndeVoceEsta = document.createElement('section');
 document.getElementById('elementoOndeVoceEsta').appendChild(filhoDoElementoOndeVoceEsta);
+
+const filhoDoPrimeiroFilhoDoFilho = document.createElement('section');
+document.getElementById('primeiroFilhoDoFilho').appendChild(filhoDoPrimeiroFilhoDoFilho);
