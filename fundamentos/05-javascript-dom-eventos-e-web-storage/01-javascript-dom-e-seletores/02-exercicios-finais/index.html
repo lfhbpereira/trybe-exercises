@@ -65,6 +65,14 @@
         h1.innerText = 'Exercício 5.1 - JavaScript';
       }
       fixText();
+
+      function modifyText () {
+        let p = document.getElementsByTagName('p');
+        for (let letters of p) {
+          letters.style.textTransform = 'uppercase';
+        }
+      }
+      modifyText();
     </script>
   </body>
 </html>
