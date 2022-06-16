@@ -9,3 +9,6 @@ console.log(primeiroFilhoDoFilho.innerText = 'Lorem Ipsum');
 
 const primeiroFilho = pai.firstElementChild;
 console.log(primeiroFilho);
+
+const primeiroFilhoDeNovo = elementoOndeVoceEsta.previousElementSibling;
+console.log(primeiroFilhoDeNovo);
