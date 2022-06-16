@@ -6,3 +6,6 @@ document.getElementById('elementoOndeVoceEsta').appendChild(filhoDoElementoOndeV
 
 const filhoDoPrimeiroFilhoDoFilho = document.createElement('section');
 document.getElementById('primeiroFilhoDoFilho').appendChild(filhoDoPrimeiroFilhoDoFilho);
+
+const terceiroFilho = filhoDoPrimeiroFilhoDoFilho.parentElement.parentElement.nextElementSibling;
+console.log(terceiroFilho);
