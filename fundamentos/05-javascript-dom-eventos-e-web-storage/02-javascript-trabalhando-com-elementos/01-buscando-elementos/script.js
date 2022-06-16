@@ -18,3 +18,6 @@ console.log(text);
 
 const terceiroFilho = elementoOndeVoceEsta.nextElementSibling;
 console.log(terceiroFilho);
+
+const terceiroFilhoDeNovo = pai.lastElementChild.previousElementSibling;
+console.log(terceiroFilhoDeNovo);
