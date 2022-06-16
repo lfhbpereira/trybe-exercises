@@ -12,3 +12,6 @@ console.log(primeiroFilho);
 
 const primeiroFilhoDeNovo = elementoOndeVoceEsta.previousElementSibling;
 console.log(primeiroFilhoDeNovo);
+
+const text = elementoOndeVoceEsta.nextSibling;
+console.log(text);
