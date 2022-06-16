@@ -73,6 +73,14 @@
         }
       }
       modifyText();
+
+      function displayTags () {
+        let p = document.getElementsByTagName('p');
+        for (let element of p) {
+          console.log(element.innerHTML);
+        }
+      }
+      displayTags();
     </script>
   </body>
 </html>
