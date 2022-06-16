@@ -6,3 +6,6 @@ console.log(pai.style.color = 'purple');
 
 const primeiroFilhoDoFilho = elementoOndeVoceEsta.firstElementChild;
 console.log(primeiroFilhoDoFilho.innerText = 'Lorem Ipsum');
+
+const primeiroFilho = pai.firstElementChild;
+console.log(primeiroFilho);
