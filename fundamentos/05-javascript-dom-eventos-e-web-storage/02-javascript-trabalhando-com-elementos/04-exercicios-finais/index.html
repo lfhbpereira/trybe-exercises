@@ -65,13 +65,17 @@
       main.className = 'main-content';
       document.body.appendChild(main);
 
-      const section = document.createElement('section');
-      section.className = 'center-content';
-      main.appendChild(section);
+      const sectionCenter = document.createElement('section');
+      sectionCenter.className = 'center-content';
+      main.appendChild(sectionCenter);
 
       const p = document.createElement('p');
       p.innerText = 'Lorem Ipsum';
-      section.appendChild(p);
+      sectionCenter.appendChild(p);
+
+      const sectionLeft = document.createElement('section');
+      sectionLeft.className = 'left-content';
+      main.appendChild(sectionLeft);
     </script>
   </body>
 </html>
