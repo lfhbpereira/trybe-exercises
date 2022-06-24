@@ -1,5 +1,3 @@
-// 01
-
 const people = [
   { name: 'Mateus', age: 18 },
   { name: 'José', age: 16 },
