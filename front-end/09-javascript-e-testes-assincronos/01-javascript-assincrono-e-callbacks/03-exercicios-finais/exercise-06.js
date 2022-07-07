@@ -20,11 +20,10 @@ const handleError = (errorReason) => {
 };
 
 const sendMarsTemperature = (onSuccess, onError) => {
-  const marsTemperature = getMarsTemperature();
   const messageSent = Math.random() <= 0.6;
   setTimeout(() => {
     if (messageSent) {
-      return onSuccess(marsTemperature);
+      return onSuccess(getMarsTemperature());
     } else {
       return onError('Robot is busy');
     }
