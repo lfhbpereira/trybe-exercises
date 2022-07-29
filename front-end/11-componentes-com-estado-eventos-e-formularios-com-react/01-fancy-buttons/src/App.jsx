@@ -46,19 +46,19 @@ class App extends React.Component {
           onClick={ this.handleClick1 }
           style={ {backgroundColor: this.buttonColor(clicks1)} }
         >
-        Primeiro botão - Cliques: { clicks1 }
+          Primeiro botão - Cliques: { clicks1 }
         </button>
         <button
           onClick={ this.handleClick2 }
           style={ {backgroundColor: this.buttonColor(clicks2)} }
         >
-        Segundo botão - Cliques: { clicks2 }
+          Segundo botão - Cliques: { clicks2 }
         </button>
         <button
           onClick={ this.handleClick3 }
           style={ {backgroundColor: this.buttonColor(clicks3)} }
         >
-        Terceiro botão - Cliques: { clicks3 }
+          Terceiro botão - Cliques: { clicks3 }
         </button>
       </div>
     );
