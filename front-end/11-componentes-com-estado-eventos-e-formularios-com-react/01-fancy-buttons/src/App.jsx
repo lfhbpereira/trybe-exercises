@@ -3,7 +3,7 @@ import './App.css';
 
 class App extends React.Component {
   constructor() {
-    super()
+    super();
 
     this.handleClick1 = this.handleClick1.bind(this);
     this.handleClick2 = this.handleClick2.bind(this);
@@ -13,7 +13,7 @@ class App extends React.Component {
       clicks1: 0,
       clicks2: 0,
       clicks3: 0
-    }
+    };
   }
 
   handleClick1() {
@@ -44,19 +44,19 @@ class App extends React.Component {
       <div>
         <button
           onClick={ this.handleClick1 }
-          style={ {backgroundColor: this.buttonColor(clicks1)} }
+          style={{ backgroundColor: this.buttonColor(clicks1) }}
         >
           Primeiro botão - Cliques: { clicks1 }
         </button>
         <button
           onClick={ this.handleClick2 }
-          style={ {backgroundColor: this.buttonColor(clicks2)} }
+          style={{ backgroundColor: this.buttonColor(clicks2) }}
         >
           Segundo botão - Cliques: { clicks2 }
         </button>
         <button
           onClick={ this.handleClick3 }
-          style={ {backgroundColor: this.buttonColor(clicks3)} }
+          style={{ backgroundColor: this.buttonColor(clicks3) }}
         >
           Terceiro botão - Cliques: { clicks3 }
         </button>
